@@ -1,24 +1,41 @@
-# Compiled class file
+# === Java class files ===
 *.class
 
-# Log file
+# === Log files ===
 *.log
 
-# BlueJ files
+# === BlueJ files ===
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# === Mobile Tools for Java (J2ME) ===
 .mtj.tmp/
 
-# Package Files #
+# === Java package files ===
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# === JVM crash logs ===
 hs_err_pid*
 replay_pid*
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+
+# === VS Code ===
+.vscode/
+
+# === Eclipse (if ever used) ===
+.settings/
+bin/
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
