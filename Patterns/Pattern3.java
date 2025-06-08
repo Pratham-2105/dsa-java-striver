@@ -7,6 +7,7 @@ public class Pattern3 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter num: ");
         int num = scan.nextInt();
+        scan.close();
 
         int i;
         for (i = 1; i <= num; i++) {
