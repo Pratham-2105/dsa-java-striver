@@ -10,7 +10,7 @@ public class Pattern18 {
         scan.close();
 
         for (int i = 1; i <= num; i++) {
-            char start = 'E';
+            char start = (char) (num + 64);
             for (int j = 1; j <= i; j++) {
                 if (j == 1) {
                     start -= i - 1;
