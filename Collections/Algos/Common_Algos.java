@@ -1,4 +1,4 @@
-package Collections.Iterators.Algos;
+package Collections.Algos;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,7 +33,7 @@ public class Common_Algos {
 
         // (iv) Exponent -
 
-        double num = Math.pow(2, 5);
+        double num = Math.pow(2, 5); // 2 ^ 5;
         System.out.println(num);
     }
 }

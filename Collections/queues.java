@@ -24,6 +24,7 @@ public class queues {
         PQ.offer(15);
         PQ.offer(11);
         PQ.offer(14);
+
         System.out.println(PQ);
         System.out.println(PQ.peek());
         System.out.println(PQ.poll());

@@ -1,7 +1,7 @@
 package Collections;
 
-import java.util.Collections; // For using interface Collection;
-import java.util.List; // For using interface List;
+//import java.util.Collections; // For using interface Collection;
+//import java.util.List; // For using interface List;
 import java.util.*; // Imports all the utilities;
 
 public class List_Interface {

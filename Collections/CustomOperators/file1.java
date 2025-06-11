@@ -34,4 +34,8 @@ public class file1 {
         System.out.println(arr);
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 36cc65a (Made a Custom Comparator)
