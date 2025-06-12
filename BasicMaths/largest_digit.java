@@ -6,14 +6,12 @@ public class largest_digit {
 
     public static int largestDigit(int n) {
         int largest = 0;
-        // %10 and then compare...
+
         while (n != 0) {
-
-            if (n % 10 > largest) {
-                largest = n % 10;
-                n /= 10;
+            int lastDigit = n % 10;
+            if (lastDigit > largest) {
+                largest = lastDigit;
             }
-
             n /= 10;
         }
 
