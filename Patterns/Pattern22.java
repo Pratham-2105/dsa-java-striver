@@ -16,7 +16,7 @@ public class Pattern22 {
                 int left = j;
                 int right = (2 * num - 2) - j;
 
-                System.out.print(num - Math.min(Math.min(top, bottom), Math.min(left, right)));
+                System.out.print(num - Math.min(Math.min(top, bottom), Math.min(left, right)) + " ");
             }
             System.out.println();
         }
