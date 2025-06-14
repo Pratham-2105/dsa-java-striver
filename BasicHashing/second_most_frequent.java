@@ -38,8 +38,6 @@ public class second_most_frequent {
                 SmaxFrequency = hash[i];
             }
         }
-        outputArray(nums, nums.length);
-        outputArray(hash, hash.length);
 
         if (SmaxFrequency < maxFrequency && maxFrequency != 1)
             return SmaxElement;
